@@ -331,6 +331,10 @@ footer p a {
   .hero-content {
     top: 25%;
   }
+  .hero-content h1 {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+  }
   .phone-button {
     bottom: 1rem;
   }

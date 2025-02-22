@@ -12,6 +12,10 @@ body {
   font-family: "Rocktown";
   src: url("../assets/permenant.woff2") format("truetype");
 }
+@font-face {
+  font-family: "Circular Std light";
+  src: url("../assets/CircularStd-Book.ttf") format("truetype");
+}
 .pacifico-font {
   font-family: "Pacifico", serif;
   font-weight: 400;
@@ -20,7 +24,10 @@ body {
 
 .circulation-font {
   font-family: "Circular Std";
-  font-weight: 100;
+}
+
+.circulation-font-light {
+  font-family: "Circular Std light";
 }
 
 .hero-section {
@@ -142,13 +149,14 @@ body {
 
 .info-title {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.1rem;
 
   color: #445248;
 }
 
 .info-content p {
+  font-family: Circular std light;
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0;

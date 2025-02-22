@@ -261,9 +261,7 @@ footer p a {
   .mobile {
     display: block;
   }
-  .hero-section {
-    height: 80vh;
-  }
+
   .logo {
     width: 7rem;
   }
@@ -318,5 +316,14 @@ footer p a {
   .info-content {
     padding: 1.25rem;
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-content {
+    top: 25%;
+  }
+  .phone-button {
+    bottom: 1rem;
   }
 }
